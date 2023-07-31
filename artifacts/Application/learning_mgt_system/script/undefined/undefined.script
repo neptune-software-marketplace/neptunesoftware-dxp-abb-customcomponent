@@ -1,0 +1,3 @@
+.sapFGridListDefault {
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}

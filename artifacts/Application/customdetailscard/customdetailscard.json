@@ -1,0 +1,1219 @@
+{
+	"id": "79f05abe-3926-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-19T13:42:06.973Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "e74c8775-7e71-4c0e-8a21-2f656df90762",
+			"fieldName": "ProductCard",
+			"fieldParent": 0,
+			"fieldType": "nep.bootstrap.Card",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "margin",
+					"grouping": "Properties",
+					"value": "Margin3",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "borderSize",
+					"grouping": "Properties",
+					"value": "Border0",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "backgroundColor",
+					"grouping": "Properties",
+					"value": "White",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "styleClass",
+					"grouping": "Properties",
+					"value": "product-card",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "95338b2e-56dd-492c-e13c-580fc9d8e5f9",
+					"fieldName": "Header",
+					"fieldParent": "e74c8775-7e71-4c0e-8a21-2f656df90762",
+					"fieldType": "nep.bootstrap.CardContent",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "position",
+							"grouping": "Properties",
+							"value": "Header",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "29b066cc-c642-4fc3-cf4c-d01749015ec0",
+							"fieldName": "VBox",
+							"fieldParent": "95338b2e-56dd-492c-e13c-580fc9d8e5f9",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "product-card-image-box",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "b6a1ca57-4761-4537-9dc3-5de51dc38033",
+									"fieldName": "Image",
+									"fieldParent": "29b066cc-c642-4fc3-cf4c-d01749015ec0",
+									"fieldType": "sap.m.Image",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "product-card-image",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "/media/root/clock.jpg",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+									"fieldName": "Button",
+									"fieldParent": "29b066cc-c642-4fc3-cf4c-d01749015ec0",
+									"fieldType": "nep.bootstrap.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "product-card-detail-button",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "View Details",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "size",
+											"grouping": "Properties",
+											"value": "Large",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "textColor",
+											"grouping": "Properties",
+											"value": "Primary",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "borderColor",
+											"grouping": "Properties",
+											"value": "Primary",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "borderSize",
+											"grouping": "Properties",
+											"value": "Border3",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "dfe9509b-6a7a-4070-8325-f083de5ac970",
+					"fieldName": "Content",
+					"fieldParent": "e74c8775-7e71-4c0e-8a21-2f656df90762",
+					"fieldType": "nep.bootstrap.CardContent",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "position",
+							"grouping": "Properties",
+							"value": "Content",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "8d63a2e0-07db-4dd3-8240-262c4ecd6da4",
+							"fieldName": "HBox",
+							"fieldParent": "dfe9509b-6a7a-4070-8325-f083de5ac970",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "product-card-detail-box",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Start",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "7ae35198-2f85-44dc-aa07-6e80d8fc941d",
+									"fieldName": "VBoxDetails",
+									"fieldParent": "8d63a2e0-07db-4dd3-8240-262c4ecd6da4",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "70%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "01ed21bf-41a5-4a1c-a82e-332c61dda9d5",
+											"fieldName": "TextMain",
+											"fieldParent": "7ae35198-2f85-44dc-aa07-6e80d8fc941d",
+											"fieldType": "nep.bootstrap.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Super Clock",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "fontSize",
+													"grouping": "Properties",
+													"value": "FontSize4",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "5356eba7-407a-4595-ec55-d37f812192f0",
+											"fieldName": "TextSub",
+											"fieldParent": "7ae35198-2f85-44dc-aa07-6e80d8fc941d",
+											"fieldType": "nep.bootstrap.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Plan your trip efficiently",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "product_name",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "1a748f54-f15e-49ac-a2fb-3d586993913e",
+									"fieldName": "TextPrice",
+									"fieldParent": "8d63a2e0-07db-4dd3-8240-262c4ecd6da4",
+									"fieldType": "nep.bootstrap.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "70£",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "fontSize",
+											"grouping": "Properties",
+											"value": "FontSize4",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClass",
+											"grouping": "Properties",
+											"value": "product_price",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "7cb881af-156f-4d35-de10-beee22b91f9e",
+							"fieldName": "VBoxLongDetails",
+							"fieldParent": "dfe9509b-6a7a-4070-8325-f083de5ac970",
+							"fieldType": "sap.m.VBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiSmallMarginTop",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClass",
+									"grouping": "Properties",
+									"value": "product-card-long-detail-box",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "50aa8cda-19d7-4ab0-bec3-8eb7c3ca733a",
+									"fieldName": "TextSize",
+									"fieldParent": "7cb881af-156f-4d35-de10-beee22b91f9e",
+									"fieldType": "nep.bootstrap.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Sizes",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "fontSize",
+											"grouping": "Properties",
+											"value": "FontSize5",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "eb73aa2d-2048-4ee6-e3b5-4f852c6a6f5a",
+									"fieldName": "TextAvailableSizes",
+									"fieldParent": "7cb881af-156f-4d35-de10-beee22b91f9e",
+									"fieldType": "nep.bootstrap.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "XS, S, M, L, XL, XXL",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "bf460c55-c2b0-426a-d13b-fdef058c2f1c",
+									"fieldName": "TextColors",
+									"fieldParent": "7cb881af-156f-4d35-de10-beee22b91f9e",
+									"fieldType": "nep.bootstrap.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Colors",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "fontSize",
+											"grouping": "Properties",
+											"value": "FontSize5",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "17fe78a4-dd9a-4271-c61a-82b12dfc4e24",
+									"fieldName": "HBoxColors",
+									"fieldParent": "7cb881af-156f-4d35-de10-beee22b91f9e",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "10afde88-37ae-44b4-93fe-0153dfedfbd1",
+											"fieldName": "IconColor1",
+											"fieldParent": "17fe78a4-dd9a-4271-c61a-82b12dfc4e24",
+											"fieldType": "sap.ui.core.Icon",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMarginEnd",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/circle",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "hoverColor",
+													"grouping": "Properties",
+													"value": "#8B0000",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "color",
+													"grouping": "Properties",
+													"value": "red",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "a87d03a4-4aa8-4b2f-9f20-09fe4091de2c",
+											"fieldName": "IconColor2",
+											"fieldParent": "17fe78a4-dd9a-4271-c61a-82b12dfc4e24",
+											"fieldType": "sap.ui.core.Icon",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMarginEnd",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/circle",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "hoverColor",
+													"grouping": "Properties",
+													"value": "blue",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "color",
+													"grouping": "Properties",
+													"value": "#00008B",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "7f959886-9d16-4efe-bec6-909173800515",
+											"fieldName": "IconColor3",
+											"fieldParent": "17fe78a4-dd9a-4271-c61a-82b12dfc4e24",
+											"fieldType": "sap.ui.core.Icon",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMarginEnd",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/circle",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "hoverColor",
+													"grouping": "Properties",
+													"value": "#FF8C00",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "color",
+													"grouping": "Properties",
+													"value": "orange",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "9a12fd73-f1b3-4aa9-fab2-c1cb04e1ebc4",
+											"fieldName": "IconColor4",
+											"fieldParent": "17fe78a4-dd9a-4271-c61a-82b12dfc4e24",
+											"fieldType": "sap.ui.core.Icon",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "src",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/circle",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "hoverColor",
+													"grouping": "Properties",
+													"value": "green",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "color",
+													"grouping": "Properties",
+													"value": "#006400",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "60f8a0f2-c98f-44e1-8215-2a8ef8ea871b",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "d48acd6b-0d6e-4a7a-a924-08ade223a30d",
+					"fieldName": "namespace",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": "file://script/neptune.Typescript/namespace.ts",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": {
+		"icon": "/media/root/product-card-sample.png",
+		"documentation": "<h2>Product Card<br></h2><p>This is a simple product card that card be used for webshop applications. The size of the card has been set to 100% so that it takes the full width of any container it is placed on.</p><p><br></p><p>Feel free to make further changes to it directly or make a copy of it;</p><p>Component Name: <em><strong>CustomDetailsCard</strong></em></p>",
+		"containerId": null,
+		"attributes": [
+			{
+				"id": "1a91cc58-fc0f-4dcb-b3de-5f95cf4fa91b",
+				"objectType": "group",
+				"attribute": {
+					"ATTRIBUTE": "image",
+					"GROUPING": ""
+				}
+			},
+			{
+				"id": "301ae567-c058-4ef2-843a-d4613b770f61",
+				"objectType": "group",
+				"attribute": {
+					"ATTRIBUTE": "Details",
+					"GROUPING": ""
+				}
+			},
+			{
+				"id": "03674a77-cd3d-4d94-888b-656d56783599",
+				"objectType": "group",
+				"attribute": {
+					"ATTRIBUTE": "mainText",
+					"GROUPING": ""
+				}
+			},
+			{
+				"id": "d11fc5d1-c511-48d4-a87a-c22f936abdf0",
+				"objectType": "group",
+				"attribute": {
+					"ATTRIBUTE": "subText",
+					"GROUPING": ""
+				}
+			},
+			{
+				"id": "1fa58694-d08a-463f-ac55-432af5d4fc22",
+				"objectType": "attribute",
+				"fieldId": "b6a1ca57-4761-4537-9dc3-5de51dc38033",
+				"parent": "1a91cc58-fc0f-4dcb-b3de-5f95cf4fa91b",
+				"attribute": {
+					"ATTRIBUTE": "src",
+					"GROUPING": "image",
+					"PARENT": "image"
+				},
+				"original": {
+					"FIELD_ID": "b6a1ca57-4761-4537-9dc3-5de51dc38033",
+					"ATTRIBUTE": "src",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "sap.m.Image"
+			},
+			{
+				"id": "6922d809-a050-461b-be6b-349692b922da",
+				"objectType": "attribute",
+				"fieldId": "1a748f54-f15e-49ac-a2fb-3d586993913e",
+				"parent": "301ae567-c058-4ef2-843a-d4613b770f61",
+				"attribute": {
+					"ATTRIBUTE": "text",
+					"GROUPING": "Details",
+					"PARENT": "Details"
+				},
+				"original": {
+					"FIELD_ID": "1a748f54-f15e-49ac-a2fb-3d586993913e",
+					"ATTRIBUTE": "text",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Text"
+			},
+			{
+				"id": "efb64293-081f-45f0-c078-792d7dadb72b",
+				"objectType": "attribute",
+				"fieldId": "01ed21bf-41a5-4a1c-a82e-332c61dda9d5",
+				"parent": "03674a77-cd3d-4d94-888b-656d56783599",
+				"attribute": {
+					"ATTRIBUTE": "text",
+					"GROUPING": "mainText",
+					"PARENT": "mainText"
+				},
+				"original": {
+					"FIELD_ID": "01ed21bf-41a5-4a1c-a82e-332c61dda9d5",
+					"ATTRIBUTE": "text",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Text"
+			},
+			{
+				"id": "747f1e59-afa5-4c98-c034-f1a05cc83ce8",
+				"objectType": "attribute",
+				"fieldId": "5356eba7-407a-4595-ec55-d37f812192f0",
+				"parent": "d11fc5d1-c511-48d4-a87a-c22f936abdf0",
+				"attribute": {
+					"ATTRIBUTE": "text",
+					"GROUPING": "subText",
+					"PARENT": "subText"
+				},
+				"original": {
+					"FIELD_ID": "5356eba7-407a-4595-ec55-d37f812192f0",
+					"ATTRIBUTE": "text",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Text"
+			},
+			{
+				"id": "697c8cee-b6ec-4b64-a528-07c389cf014d",
+				"objectType": "group",
+				"attribute": {
+					"ATTRIBUTE": "viewdetailsbutton",
+					"GROUPING": ""
+				}
+			},
+			{
+				"id": "39f2cf01-e530-4f16-d329-0c215af67cd4",
+				"objectType": "attribute",
+				"fieldId": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+				"parent": "697c8cee-b6ec-4b64-a528-07c389cf014d",
+				"attribute": {
+					"ATTRIBUTE": "icon",
+					"GROUPING": "viewdetailsbutton",
+					"PARENT": "viewdetailsbutton"
+				},
+				"original": {
+					"FIELD_ID": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+					"ATTRIBUTE": "icon",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Button"
+			},
+			{
+				"id": "7ea3ca1e-cb80-44b0-efd9-8a8c1a8e2a9b",
+				"objectType": "attribute",
+				"fieldId": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+				"parent": "697c8cee-b6ec-4b64-a528-07c389cf014d",
+				"attribute": {
+					"ATTRIBUTE": "text",
+					"GROUPING": "viewdetailsbutton",
+					"PARENT": "viewdetailsbutton"
+				},
+				"original": {
+					"FIELD_ID": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+					"ATTRIBUTE": "text",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Button"
+			},
+			{
+				"id": "24e5418c-e4cf-481f-b5e2-2f6d486ee825",
+				"objectType": "attribute",
+				"fieldId": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+				"parent": "697c8cee-b6ec-4b64-a528-07c389cf014d",
+				"attribute": {
+					"ATTRIBUTE": "backgroundColor",
+					"GROUPING": "viewdetailsbutton",
+					"PARENT": "viewdetailsbutton"
+				},
+				"original": {
+					"FIELD_ID": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+					"ATTRIBUTE": "backgroundColor",
+					"VALUE_TABLE": "706",
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Button"
+			},
+			{
+				"id": "a0a2e38b-8019-4748-f91d-761199c2080f",
+				"objectType": "attribute",
+				"fieldId": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+				"parent": "697c8cee-b6ec-4b64-a528-07c389cf014d",
+				"attribute": {
+					"ATTRIBUTE": "textColor",
+					"GROUPING": "viewdetailsbutton",
+					"PARENT": "viewdetailsbutton"
+				},
+				"original": {
+					"FIELD_ID": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+					"ATTRIBUTE": "textColor",
+					"VALUE_TABLE": "705",
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Button"
+			},
+			{
+				"id": "0b590f34-7d7d-4555-bee0-c494298518bd",
+				"objectType": "attribute",
+				"fieldId": "5356eba7-407a-4595-ec55-d37f812192f0",
+				"parent": "d11fc5d1-c511-48d4-a87a-c22f936abdf0",
+				"attribute": {
+					"ATTRIBUTE": "textColor",
+					"GROUPING": "subText",
+					"PARENT": "subText"
+				},
+				"original": {
+					"FIELD_ID": "5356eba7-407a-4595-ec55-d37f812192f0",
+					"ATTRIBUTE": "textColor",
+					"VALUE_TABLE": "705",
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Text"
+			},
+			{
+				"id": "525b81b4-1191-4eb5-847c-5cacf1e37d71",
+				"objectType": "attribute",
+				"fieldId": "01ed21bf-41a5-4a1c-a82e-332c61dda9d5",
+				"parent": "03674a77-cd3d-4d94-888b-656d56783599",
+				"attribute": {
+					"ATTRIBUTE": "textColor",
+					"GROUPING": "mainText",
+					"PARENT": "mainText"
+				},
+				"original": {
+					"FIELD_ID": "01ed21bf-41a5-4a1c-a82e-332c61dda9d5",
+					"ATTRIBUTE": "textColor",
+					"VALUE_TABLE": "705",
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Text"
+			},
+			{
+				"id": "6c5f65e3-c4e8-4e6f-8766-c881f5572c9a",
+				"objectType": "attribute",
+				"fieldId": "1a748f54-f15e-49ac-a2fb-3d586993913e",
+				"parent": "301ae567-c058-4ef2-843a-d4613b770f61",
+				"attribute": {
+					"ATTRIBUTE": "textColor",
+					"GROUPING": "Details",
+					"PARENT": "Details"
+				},
+				"original": {
+					"FIELD_ID": "1a748f54-f15e-49ac-a2fb-3d586993913e",
+					"ATTRIBUTE": "textColor",
+					"VALUE_TABLE": "705",
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Text"
+			},
+			{
+				"id": "ee0937ea-4e3c-4358-a4d6-710917cf8842",
+				"objectType": "attribute",
+				"fieldId": "eb73aa2d-2048-4ee6-e3b5-4f852c6a6f5a",
+				"parent": "301ae567-c058-4ef2-843a-d4613b770f61",
+				"attribute": {
+					"ATTRIBUTE": "textSizes",
+					"GROUPING": "Details",
+					"PARENT": "Details"
+				},
+				"original": {
+					"FIELD_ID": "eb73aa2d-2048-4ee6-e3b5-4f852c6a6f5a",
+					"ATTRIBUTE": "text",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Text"
+			},
+			{
+				"id": "72135a0f-9005-40ce-f53d-cdb0498b3cd1",
+				"objectType": "attribute",
+				"fieldId": "eb73aa2d-2048-4ee6-e3b5-4f852c6a6f5a",
+				"parent": "301ae567-c058-4ef2-843a-d4613b770f61",
+				"attribute": {
+					"ATTRIBUTE": "textSizesColor",
+					"GROUPING": "Details",
+					"PARENT": "Details"
+				},
+				"original": {
+					"FIELD_ID": "eb73aa2d-2048-4ee6-e3b5-4f852c6a6f5a",
+					"ATTRIBUTE": "textColor",
+					"VALUE_TABLE": "705",
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Text"
+			},
+			{
+				"id": "5523b1b2-e9c6-4cf7-f8e1-f855503073f2",
+				"objectType": "attribute",
+				"fieldId": "e74c8775-7e71-4c0e-8a21-2f656df90762",
+				"parent": "301ae567-c058-4ef2-843a-d4613b770f61",
+				"attribute": {
+					"ATTRIBUTE": "cardTextColor",
+					"GROUPING": "Details",
+					"PARENT": "Details"
+				},
+				"original": {
+					"FIELD_ID": "e74c8775-7e71-4c0e-8a21-2f656df90762",
+					"ATTRIBUTE": "textColor",
+					"VALUE_TABLE": "705",
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Card"
+			},
+			{
+				"id": "65a2054c-4af7-477b-935a-e3f57a479027",
+				"objectType": "attribute",
+				"fieldId": "b6a1ca57-4761-4537-9dc3-5de51dc38033",
+				"parent": "1a91cc58-fc0f-4dcb-b3de-5f95cf4fa91b",
+				"attribute": {
+					"ATTRIBUTE": "width",
+					"GROUPING": "image",
+					"PARENT": "image"
+				},
+				"original": {
+					"FIELD_ID": "b6a1ca57-4761-4537-9dc3-5de51dc38033",
+					"ATTRIBUTE": "width",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "sap.m.Image"
+			},
+			{
+				"id": "36a0d295-dc9f-4e9b-e93a-1aef6bbde044",
+				"objectType": "attribute",
+				"fieldId": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+				"parent": "697c8cee-b6ec-4b64-a528-07c389cf014d",
+				"attribute": {
+					"ATTRIBUTE": "borderSize",
+					"GROUPING": "viewdetailsbutton",
+					"PARENT": "viewdetailsbutton"
+				},
+				"original": {
+					"FIELD_ID": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+					"ATTRIBUTE": "borderSize",
+					"VALUE_TABLE": "714",
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Button"
+			},
+			{
+				"id": "9723d510-ec82-44bd-c111-906b68dc7992",
+				"objectType": "attribute",
+				"fieldId": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+				"parent": "697c8cee-b6ec-4b64-a528-07c389cf014d",
+				"attribute": {
+					"ATTRIBUTE": "borderColor",
+					"GROUPING": "viewdetailsbutton",
+					"PARENT": "viewdetailsbutton"
+				},
+				"original": {
+					"FIELD_ID": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+					"ATTRIBUTE": "borderColor",
+					"VALUE_TABLE": "711",
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "nep.bootstrap.Button"
+			},
+			{
+				"id": "bdd7ec8d-e9e3-40e4-dfb1-a1470591b788",
+				"objectType": "attribute",
+				"fieldId": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+				"parent": "697c8cee-b6ec-4b64-a528-07c389cf014d",
+				"attribute": {
+					"ATTRIBUTE": "press",
+					"GROUPING": "viewdetailsbutton",
+					"PARENT": "viewdetailsbutton"
+				},
+				"original": {
+					"FIELD_ID": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+					"ATTRIBUTE": "press",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Events",
+					"PARENT": "Events",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://document-text",
+					"SHOW_SCRIPT": true,
+					"ENABLE_SCRIPT": false
+				},
+				"fieldType": "nep.bootstrap.Button"
+			}
+		],
+		"containers": [
+			{
+				"id": "e74c8775-7e71-4c0e-8a21-2f656df90762",
+				"label": "Card",
+				"type": "nep.bootstrap.Card"
+			}
+		],
+		"topLevelObjects": [
+			"nep.bootstrap.Card"
+		]
+	},
+	"ver": "23.7.31.1118",
+	"application": "customdetailscard",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "E",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"apis": [],
+	"package": "8b18a518-832f-ee11-907e-000d3a661202"
+}

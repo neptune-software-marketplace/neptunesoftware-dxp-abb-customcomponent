@@ -1,0 +1,256 @@
+{
+	"id": "a783f88e-6e19-ee11-907c-000d3ab76cc2",
+	"createdAt": "2023-07-03T07:04:10.620Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "eb4d4bae-0f21-4bf9-9068-6796492f676d",
+			"fieldName": "Shell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "08c3dbe9-ce89-4f6d-9b43-707c5138de16",
+					"fieldName": "App",
+					"fieldParent": "eb4d4bae-0f21-4bf9-9068-6796492f676d",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "b1c488e0-232d-4f30-9ab5-fd03793f86f9",
+							"fieldName": "productPage",
+							"fieldParent": "08c3dbe9-ce89-4f6d-9b43-707c5138de16",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "011580b2-2f9c-422d-94c6-b8603ebcbdbd",
+									"fieldName": "trainingheader",
+									"fieldParent": "b1c488e0-232d-4f30-9ab5-fd03793f86f9",
+									"fieldType": "trainingheader",
+									"script": "",
+									"customComponent": true,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/trainingheader/trainingheader/press.script",
+											"fieldId": "067dbd2a-0913-44ed-c992-cd2b7a2e04e3",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "f7be8b2c-8106-4306-c0dc-34459d20e340",
+											"fieldName": "oOverflowToolbar",
+											"fieldParent": "011580b2-2f9c-422d-94c6-b8603ebcbdbd",
+											"fieldType": "neptune.CustomComponentContent",
+											"script": "",
+											"customComponent": false,
+											"interfaceId": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "10526d1d-c1a1-43a3-db6a-ad70e26f24ac",
+									"fieldName": "List",
+									"fieldParent": "b1c488e0-232d-4f30-9ab5-fd03793f86f9",
+									"fieldType": "sap.f.GridList",
+									"script": "",
+									"customComponent": false,
+									"bindingValue": "API vodafone_products>vodafone_products",
+									"bindingType": "h",
+									"bindingSource": "API",
+									"bindingParentID": "F19BAB90-E275-EB11-9889-0003FF1E4706",
+									"bindingPathID": "58718cec-62fb-43f8-cab8-165e4a1c41ee",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "d2906b8a-e045-41a1-e79d-d973f1f2d2d0",
+											"fieldName": "GridListItem",
+											"fieldParent": "10526d1d-c1a1-43a3-db6a-ad70e26f24ac",
+											"fieldType": "sap.f.GridListItem",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "850f4776-3cdf-4f09-8d67-c4f79211b4eb",
+													"fieldName": "customdetailscard",
+													"fieldParent": "d2906b8a-e045-41a1-e79d-d973f1f2d2d0",
+													"fieldType": "customdetailscard",
+													"script": "",
+													"customComponent": true,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/Tracor2.jpeg",
+															"script": "",
+															"fieldId": "b6a1ca57-4761-4537-9dc3-5de51dc38033",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Farm Tractor",
+															"script": "",
+															"fieldId": "01ed21bf-41a5-4a1c-a82e-332c61dda9d5",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Agriculture made easy ",
+															"script": "",
+															"fieldId": "5356eba7-407a-4595-ec55-d37f812192f0",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/customdetailscard/customdetailscard/press.script",
+															"fieldId": "38b238ee-e89e-4fd2-9578-f4989782d06f",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "fb11793b-4712-4891-a9b3-58ed86a96683",
+															"fieldName": "Card",
+															"fieldParent": "850f4776-3cdf-4f09-8d67-c4f79211b4eb",
+															"fieldType": "neptune.CustomComponentContent",
+															"script": "",
+															"customComponent": false,
+															"interfaceId": "e74c8775-7e71-4c0e-8a21-2f656df90762",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "cbe4adca-57a0-41a4-ecd1-75e565d4380d",
+					"fieldName": "RestAPI",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "f19bab90-e275-eb11-9889-0003ff1e4706",
+					"restOperation": "7bf6e866-3d3d-4445-ac35-d6be0991467c",
+					"request": [],
+					"response": [
+						{
+							"status": 200,
+							"dataId": "58718cec-62fb-43f8-cab8-165e4a1c41ee",
+							"modelFieldNo": "10526d1d-c1a1-43a3-db6a-ad70e26f24ac"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.7.31.1540",
+	"application": "learning_mgt_system",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": true,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"apis": [
+		{
+			"id": "f19bab90-e275-eb11-9889-0003ff1e4706",
+			"name": "API vodafone_products",
+			"ver": "21.2.23.1422"
+		}
+	],
+	"package": "8b18a518-832f-ee11-907e-000d3a661202"
+}

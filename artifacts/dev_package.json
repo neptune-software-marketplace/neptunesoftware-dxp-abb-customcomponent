@@ -1,0 +1,61 @@
+{
+	"id": "8b18a518-832f-ee11-907e-000d3a661202",
+	"createdAt": "2023-07-31T09:17:40.593Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-customcomponent"
+	},
+	"name": "neptunesoftware-dxp-abb-customcomponent",
+	"description": null,
+	"ver": "23.7.31.1640",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "a783f88e-6e19-ee11-907c-000d3ab76cc2",
+			"application": "learning_mgt_system",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "7e5aea30-7c9a-40ea-8a1f-6104f176b00d",
+			"application": "trainingheader",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "79f05abe-3926-ee11-907e-000d3a661202",
+			"application": "customdetailscard",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

@@ -1,0 +1,530 @@
+{
+	"id": "7e5aea30-7c9a-40ea-8a1f-6104f176b00d",
+	"createdAt": "2023-02-12T12:23:08.000Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+			"fieldName": "oOverflowToolbar",
+			"fieldParent": 0,
+			"fieldType": "sap.m.OverflowToolbar",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "position",
+					"grouping": "Parent",
+					"value": "HeaderToolbar",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "067dbd2a-0913-44ed-c992-cd2b7a2e04e3",
+					"fieldName": "oBtnViewAsList",
+					"fieldParent": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+					"fieldType": "sap.m.Button",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "tooltip",
+							"grouping": "Properties",
+							"value": "View as List",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "icon",
+							"grouping": "Properties",
+							"value": "sap-icon://fa-solid/list",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "c2a66755-905f-438b-8b33-7561c3072ee5",
+					"fieldName": "oBtnViewAsGallery",
+					"fieldParent": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+					"fieldType": "sap.m.Button",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "tooltip",
+							"grouping": "Properties",
+							"value": "View as gallery",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "icon",
+							"grouping": "Properties",
+							"value": "sap-icon://grid",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "press",
+							"grouping": "Events",
+							"value": "onBtnViewAsGallery(oEvent);",
+							"script": "onBtnViewAsGallery(oEvent);",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "49984fe3-a8a2-44a0-e60c-956bae28e2d9",
+					"fieldName": "oToolbarSpacer",
+					"fieldParent": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+					"fieldType": "sap.m.ToolbarSpacer",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "372c5eba-8782-4242-f584-1749e9d5f9e9",
+					"fieldName": "oSearchField",
+					"fieldParent": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+					"fieldType": "sap.m.SearchField",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "width",
+							"grouping": "Properties",
+							"value": "20rem",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "3abed862-d633-4c26-a1d3-04ebecf5ecef",
+					"fieldName": "oOverflowStartFilter",
+					"fieldParent": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+					"fieldType": "sap.m.OverflowToolbarButton",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "tooltip",
+							"grouping": "Properties",
+							"value": "Filter",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "icon",
+							"grouping": "Properties",
+							"value": "sap-icon://fa-solid/filter",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "press",
+							"grouping": "Events",
+							"value": "onBtnFilter(oEvent);",
+							"script": "onBtnFilter(oEvent);",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "0e237de0-fb4f-4719-b817-0b71acfdfe64",
+					"fieldName": "oBtnExcel",
+					"fieldParent": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+					"fieldType": "sap.m.Button",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "tooltip",
+							"grouping": "Properties",
+							"value": "Export to excel",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "icon",
+							"grouping": "Properties",
+							"value": "sap-icon://excel-attachment",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "press",
+							"grouping": "Events",
+							"value": "onBtnExportToExcel(oEvent);",
+							"script": "onBtnExportToExcel(oEvent);",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "5c6f6da1-51c7-4261-e3d4-229cb47d60d9",
+					"fieldName": "oBtnApprove",
+					"fieldParent": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+					"fieldType": "sap.m.Button",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "tooltip",
+							"grouping": "Properties",
+							"value": "Approve commentaries",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "Approve",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "icon",
+							"grouping": "Properties",
+							"value": "sap-icon://fa-solid/check",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "press",
+							"grouping": "Events",
+							"value": "onBtnApprove(oEvent);",
+							"script": "onBtnApprove(oEvent);",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "5b1a1175-babe-451d-af1e-8fcdf1aacae2",
+					"fieldName": "oText",
+					"fieldParent": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+					"fieldType": "nep.bootstrap.Text",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "297066c4-e058-4261-fd15-a22e2dac678b",
+					"fieldName": "type",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": "declare const AppCache: any;",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "c446985d-4dc1-4800-d25e-0f2058b5ccbd",
+					"fieldName": "namespace",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": "file://script/neptune.Typescript/namespace.ts",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": {
+		"icon": "/media/root/training/logo.jpg",
+		"documentation": "",
+		"containerId": null,
+		"attributes": [
+			{
+				"id": "0e292c2d-a4a6-4b9f-b84f-6efe5e13a01c",
+				"objectType": "group",
+				"attribute": {
+					"ATTRIBUTE": "menu",
+					"GROUPING": ""
+				}
+			},
+			{
+				"id": "fdf5bbdd-4a63-49fd-bd19-252938679a27",
+				"objectType": "attribute",
+				"fieldId": "c2a66755-905f-438b-8b33-7561c3072ee5",
+				"parent": "0e292c2d-a4a6-4b9f-b84f-6efe5e13a01c",
+				"attribute": {
+					"ATTRIBUTE": "onPressViewAsGallery",
+					"GROUPING": "menu",
+					"PARENT": "menu",
+					"DESCRIPTION": "View as gallery"
+				},
+				"original": {
+					"FIELD_ID": "c2a66755-905f-438b-8b33-7561c3072ee5",
+					"ATTRIBUTE": "press",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Events",
+					"PARENT": "Events",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://document-text",
+					"SHOW_SCRIPT": true,
+					"ENABLE_SCRIPT": false
+				},
+				"fieldType": "sap.m.Button"
+			},
+			{
+				"id": "b362b1ae-fa5c-409a-8ee7-0d410c3ecc89",
+				"objectType": "attribute",
+				"fieldId": "067dbd2a-0913-44ed-c992-cd2b7a2e04e3",
+				"parent": "0e292c2d-a4a6-4b9f-b84f-6efe5e13a01c",
+				"attribute": {
+					"ATTRIBUTE": "onPressViewAsList",
+					"GROUPING": "menu",
+					"PARENT": "menu",
+					"DESCRIPTION": "View as list"
+				},
+				"original": {
+					"FIELD_ID": "067dbd2a-0913-44ed-c992-cd2b7a2e04e3",
+					"ATTRIBUTE": "press",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Events",
+					"PARENT": "Events",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://document-text",
+					"SHOW_SCRIPT": true,
+					"ENABLE_SCRIPT": false
+				},
+				"fieldType": "sap.m.Button"
+			},
+			{
+				"id": "88a68315-d3e1-49b2-92b8-faca090b205a",
+				"objectType": "attribute",
+				"fieldId": "067dbd2a-0913-44ed-c992-cd2b7a2e04e3",
+				"parent": "0e292c2d-a4a6-4b9f-b84f-6efe5e13a01c",
+				"attribute": {
+					"ATTRIBUTE": "width",
+					"GROUPING": "menu",
+					"PARENT": "menu",
+					"DESCRIPTION": "width for 'View as a list button'"
+				},
+				"original": {
+					"FIELD_ID": "067dbd2a-0913-44ed-c992-cd2b7a2e04e3",
+					"ATTRIBUTE": "width",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "sap.m.Button"
+			},
+			{
+				"id": "0e36ea1d-8ecc-4188-e7be-92a5313ce548",
+				"objectType": "attribute",
+				"fieldId": "372c5eba-8782-4242-f584-1749e9d5f9e9",
+				"parent": "0e292c2d-a4a6-4b9f-b84f-6efe5e13a01c",
+				"attribute": {
+					"ATTRIBUTE": "onSearch",
+					"GROUPING": "menu",
+					"PARENT": "menu",
+					"DESCRIPTION": "Search in the menu"
+				},
+				"original": {
+					"FIELD_ID": "372c5eba-8782-4242-f584-1749e9d5f9e9",
+					"ATTRIBUTE": "search",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Events",
+					"PARENT": "Events",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://document-text",
+					"SHOW_SCRIPT": true,
+					"ENABLE_SCRIPT": false
+				},
+				"fieldType": "sap.m.SearchField"
+			},
+			{
+				"id": "08618c4c-5545-4ba6-9434-4b668af524e5",
+				"objectType": "attribute",
+				"fieldId": "0e237de0-fb4f-4719-b817-0b71acfdfe64",
+				"parent": "0e292c2d-a4a6-4b9f-b84f-6efe5e13a01c",
+				"attribute": {
+					"ATTRIBUTE": "onPressExcelButton",
+					"GROUPING": "menu",
+					"PARENT": "menu",
+					"DESCRIPTION": "Export to excel"
+				},
+				"original": {
+					"FIELD_ID": "0e237de0-fb4f-4719-b817-0b71acfdfe64",
+					"ATTRIBUTE": "press",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Events",
+					"PARENT": "Events",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://document-text",
+					"SHOW_SCRIPT": true,
+					"ENABLE_SCRIPT": false
+				},
+				"fieldType": "sap.m.Button"
+			},
+			{
+				"id": "f33320cc-ddd9-4000-9e49-2677c1366913",
+				"objectType": "attribute",
+				"fieldId": "5c6f6da1-51c7-4261-e3d4-229cb47d60d9",
+				"parent": "0e292c2d-a4a6-4b9f-b84f-6efe5e13a01c",
+				"attribute": {
+					"ATTRIBUTE": "onPressApproveButton",
+					"GROUPING": "menu",
+					"PARENT": "menu",
+					"DESCRIPTION": "Approve"
+				},
+				"original": {
+					"FIELD_ID": "5c6f6da1-51c7-4261-e3d4-229cb47d60d9",
+					"ATTRIBUTE": "press",
+					"VALUE_TABLE": 0,
+					"GROUPING": "Events",
+					"PARENT": "Events",
+					"SHOW_LABEL": false,
+					"DEFAULT": "",
+					"ENABLE_VALUES": false,
+					"VALUEHELPONLY": false,
+					"SCRIPT_ICON": "sap-icon://document-text",
+					"SHOW_SCRIPT": true,
+					"ENABLE_SCRIPT": false
+				},
+				"fieldType": "sap.m.Button"
+			},
+			{
+				"id": "e5c41a91-0960-4352-8f2b-173a33b46fc6",
+				"objectType": "attribute",
+				"fieldId": "c2a66755-905f-438b-8b33-7561c3072ee5",
+				"parent": "0e292c2d-a4a6-4b9f-b84f-6efe5e13a01c",
+				"attribute": {
+					"ATTRIBUTE": "visible",
+					"GROUPING": "menu",
+					"PARENT": "menu",
+					"DESCRIPTION": "Visible for view as list"
+				},
+				"original": {
+					"FIELD_ID": "c2a66755-905f-438b-8b33-7561c3072ee5",
+					"ATTRIBUTE": "visible",
+					"VALUE_TABLE": 1,
+					"GROUPING": "Properties",
+					"PARENT": "Properties",
+					"SHOW_LABEL": false,
+					"DEFAULT": "true",
+					"ENABLE_VALUES": true,
+					"VALUEHELPONLY": true,
+					"SCRIPT_ICON": "sap-icon://connected",
+					"SHOW_SCRIPT": false,
+					"ENABLE_SCRIPT": true
+				},
+				"fieldType": "sap.m.Button"
+			}
+		],
+		"containers": [
+			{
+				"id": "f55e325b-7cdd-4ce3-f2e5-06d18dcb8013",
+				"label": "oOverflowToolbar",
+				"type": "sap.m.OverflowToolbar"
+			}
+		],
+		"topLevelObjects": [
+			"sap.m.OverflowToolbar"
+		]
+	},
+	"ver": "23.7.31.1427",
+	"application": "trainingheader",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "E",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": true,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"apis": [],
+	"package": "8b18a518-832f-ee11-907e-000d3a661202"
+}

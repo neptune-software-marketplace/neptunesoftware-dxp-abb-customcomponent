@@ -1,0 +1,66 @@
+$buttonColor: blue;
+$imageHoverOpacity: 0.3;
+
+.product-card {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.product-card:hover {
+    padding-bottom: 150px;
+}
+
+.product-card .card-header {
+    padding: 0px;
+}
+
+.product-card .card-body {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.product-card:hover .card-body {
+    bottom: 10px;
+}
+
+.product-card:hover .product-card-image {
+    opacity: $imageHoverOpacity;
+}
+
+.product-card:hover .product-card-detail-button {
+    visibility: visible;
+}
+
+.product-card-image-box {
+    position: relative;
+    align-items: center;
+}
+
+.product-card-detail-button:hover {
+    background-color: white;
+    color: $buttonColor;
+    width: 10rem;
+}
+
+.product-card-image-box > :last-child {
+    //product card detail button container
+    position: absolute;
+    top: 45%;
+}
+
+.product-card-detail-button {
+    color: $buttonColor;
+    border-color: $buttonColor;
+    background-color: transparent;
+    visibility: hidden;
+}
+.product-card-long-detail-box{
+    display: none;
+
+}
+.product-card:hover .product-card-long-detail-box {
+    display: block;
+}
