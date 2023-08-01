@@ -54,7 +54,15 @@
 	"wf_definition": [],
 	"connector": [],
 	"events": [],
-	"media_library": [],
+	"media_library": [
+		{
+			"id": "49571658-38bf-428b-816b-180a6e81fdf7",
+			"updatedAt": "2023-07-31T16:43:52.000Z",
+			"name": "CustomComponentExample",
+			"parent": null,
+			"package": "8b18a518-832f-ee11-907e-000d3a661202"
+		}
+	],
 	"code_snippets": [],
 	"wf_determination": [],
 	"wf_taskaction": []

@@ -662,7 +662,7 @@
 		}
 	],
 	"componentInterface": {
-		"icon": "/media/root/product-card-sample.png",
+		"icon": "/media/root/CustomComponentExample/CustomComponentIcon.png",
 		"documentation": "<h2>Product Card<br></h2><p>This is a simple product card that card be used for webshop applications. The size of the card has been set to 100% so that it takes the full width of any container it is placed on.</p><p><br></p><p>Feel free to make further changes to it directly or make a copy of it;</p><p>Component Name: <em><strong>CustomDetailsCard</strong></em></p>",
 		"containerId": null,
 		"attributes": [
@@ -1175,7 +1175,7 @@
 			"nep.bootstrap.Card"
 		]
 	},
-	"ver": "23.7.31.1118",
+	"ver": "23.7.31.1749",
 	"application": "customdetailscard",
 	"title": "",
 	"description": "",

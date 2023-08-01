@@ -111,7 +111,7 @@
 														{
 															"attribute": "src",
 															"grouping": "Properties",
-															"value": "/media/root/Tracor2.jpeg",
+															"value": "/media/root/CustomComponentExample/custom-tractor-cartoon-drawing.jpg",
 															"script": "",
 															"fieldId": "b6a1ca57-4761-4537-9dc3-5de51dc38033",
 															"translation": []
@@ -171,31 +171,15 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "cbe4adca-57a0-41a4-ecd1-75e565d4380d",
-					"fieldName": "RestAPI",
+					"fieldNo": "debee605-4108-4e5c-a9d0-3998299e8039",
+					"fieldName": "onInit",
 					"fieldParent": 99999,
-					"fieldType": "neptune.restapi",
-					"script": "",
+					"fieldType": "neptune.event.oninit",
+					"script": "modelList.setData([{\"id\":\"4852AF91-5A5E-4098-A647-0140B96B214F\",\"createdAt\":1645009272385,\"updatedAt\":1669301250880,\"createdBy\":\"cezar\",\"updatedBy\":\"cezar\",\"ARTICLE\":\"Samsung Galaxy A22s\",\"UPFRONT\":\"599\",\"PMONTH\":\"22\",\"PROMO\":\"false\",\"PROMOT\":\"\",\"REMARK\":\"\",\"IMAGEURL\":\"https://stportaldxpgeneraldev01.blob.core.windows.net/academy-certificates/DXP/Neptune_DXP22_Certificate\",\"CURRENCY\":\" £\"},{\"id\":\"D1AB4F21-7642-4425-B0D8-0667D7295E0B\",\"createdAt\":1645009272385,\"updatedAt\":1645804074391,\"createdBy\":\"cezar\",\"updatedBy\":\"cezar.strugariu@neptune-software.com\",\"ARTICLE\":\"Samsung Galaxy S20+\",\"UPFRONT\":\"399\",\"PMONTH\":\"42\",\"PROMO\":\"true\",\"PROMOT\":\"Claim 120 Cashback\",\"REMARK\":\"\",\"IMAGEURL\":\"https://gtmdemosystem.neptune-software.cloud/media/root/Vodafone/Samsung_Galaxy_S20_FE_cloud_navy-full-product-front-600.png\",\"CURRENCY\":\" £\"},{\"id\":\"DF307F15-1414-4981-BF55-24C177B7FA8B\",\"createdAt\":1645009272385,\"updatedAt\":1645804074391,\"createdBy\":\"cezar\",\"updatedBy\":\"cezar.strugariu@neptune-software.com\",\"ARTICLE\":\"Samsung Galaxy S22+\",\"UPFRONT\":\"299\",\"PMONTH\":\"52\",\"PROMO\":\"true\",\"PROMOT\":\"Trade in to save 15 a month\",\"REMARK\":\"*Trade-in discount has been applied \",\"IMAGEURL\":\"https://gtmdemosystem.neptune-software.cloud/media/root/Vodafone/Samsung_Galaxy_S22+_white-full-product-front-600.png\",\"CURRENCY\":\" £\"},{\"id\":\"B99F5B30-28AA-4820-B367-428BCF6A7BEB\",\"createdAt\":1645009272385,\"updatedAt\":1669301250880,\"createdBy\":\"cezar\",\"updatedBy\":\"cezar\",\"ARTICLE\":\"Motorola Moto Edge 2\",\"UPFRONT\":\"199\",\"PMONTH\":\"46\",\"PROMO\":\"false\",\"PROMOT\":\"\",\"REMARK\":\"https://gtmdemosystem.neptune-software.cloud/media/root/Vodafone/Samsung_Galaxy_A52s_5G_awesome_black-full-product-front-600.png\",\"IMAGEURL\":\"https://gtmdemosystem.neptune-software.cloud/media/root/Vodafone/Motorola_Moto_Edge20_Pro_midnight_blue-full-product-front-600.png\",\"CURRENCY\":\" £\"},{\"id\":\"CB535F76-3EE2-40E6-972A-77DC28E6A017\",\"createdAt\":1645009272385,\"updatedAt\":1645804074391,\"createdBy\":\"cezar\",\"updatedBy\":\"cezar.strugariu@neptune-software.com\",\"ARTICLE\":\"Oppo Reno4+ Pro 5G\",\"UPFRONT\":\"299\",\"PMONTH\":\"46\",\"PROMO\":\"true\",\"PROMOT\":\"XS for the same price as XR\",\"REMARK\":\"\",\"IMAGEURL\":\"https://gtmdemosystem.neptune-software.cloud/media/root/Vodafone/Oppo_A54s_crystal_black-full-product-front-600.png\",\"CURRENCY\":\" £\"},{\"id\":\"71409869-3C9C-45A2-AE7B-C8B8D542F6B9\",\"createdAt\":1645009272385,\"updatedAt\":1645804074391,\"createdBy\":\"cezar\",\"updatedBy\":\"cezar.strugariu@neptune-software.com\",\"ARTICLE\":\"Google Pixel 3 XL Pro\",\"UPFRONT\":\"399\",\"PMONTH\":\"55\",\"PROMO\":\"false\",\"PROMOT\":\"\",\"REMARK\":\"\",\"IMAGEURL\":\"https://gtmdemosystem.neptune-software.cloud/media/root/Vodafone/Google_Pixel_6_Pro_cloudy_white-full-product-front-600.png\",\"CURRENCY\":\" £\"}])",
 					"customComponent": false,
-					"restSource": "f19bab90-e275-eb11-9889-0003ff1e4706",
-					"restOperation": "7bf6e866-3d3d-4445-ac35-d6be0991467c",
 					"request": [],
-					"response": [
-						{
-							"status": 200,
-							"dataId": "58718cec-62fb-43f8-cab8-165e4a1c41ee",
-							"modelFieldNo": "10526d1d-c1a1-43a3-db6a-ad70e26f24ac"
-						}
-					],
-					"attributes": [
-						{
-							"attribute": "setInitLoad",
-							"grouping": "Model",
-							"value": "online",
-							"script": "",
-							"translation": []
-						}
-					],
+					"response": [],
+					"attributes": [],
 					"data": []
 				}
 			]
@@ -206,7 +190,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.7.31.1540",
+	"ver": "23.7.31.1751",
 	"application": "learning_mgt_system",
 	"title": "",
 	"description": "",
@@ -245,12 +229,6 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": null,
-	"apis": [
-		{
-			"id": "f19bab90-e275-eb11-9889-0003ff1e4706",
-			"name": "API vodafone_products",
-			"ver": "21.2.23.1422"
-		}
-	],
+	"apis": [],
 	"package": "8b18a518-832f-ee11-907e-000d3a661202"
 }

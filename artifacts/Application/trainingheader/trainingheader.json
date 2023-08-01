@@ -273,7 +273,7 @@
 		}
 	],
 	"componentInterface": {
-		"icon": "/media/root/training/logo.jpg",
+		"icon": "/media/root/CustomComponentExample/CustomComponentIcon.png",
 		"documentation": "",
 		"containerId": null,
 		"attributes": [
@@ -486,7 +486,7 @@
 			"sap.m.OverflowToolbar"
 		]
 	},
-	"ver": "23.7.31.1427",
+	"ver": "23.7.31.1749",
 	"application": "trainingheader",
 	"title": "",
 	"description": "",
