@@ -14,19 +14,28 @@
 			"id": "a783f88e-6e19-ee11-907c-000d3ab76cc2",
 			"application": "learning_mgt_system",
 			"title": "",
-			"description": ""
+			"description": "",
+			"package": {
+				"id": "8b18a518-832f-ee11-907e-000d3a661202"
+			}
 		},
 		{
 			"id": "7e5aea30-7c9a-40ea-8a1f-6104f176b00d",
 			"application": "trainingheader",
 			"title": "",
-			"description": ""
+			"description": "",
+			"package": {
+				"id": "8b18a518-832f-ee11-907e-000d3a661202"
+			}
 		},
 		{
 			"id": "79f05abe-3926-ee11-907e-000d3a661202",
 			"application": "customdetailscard",
 			"title": "",
-			"description": ""
+			"description": "",
+			"package": {
+				"id": "8b18a518-832f-ee11-907e-000d3a661202"
+			}
 		}
 	],
 	"api": [],
@@ -54,15 +63,6 @@
 	"wf_definition": [],
 	"connector": [],
 	"events": [],
-	"media_library": [
-		{
-			"id": "49571658-38bf-428b-816b-180a6e81fdf7",
-			"updatedAt": "2023-07-31T16:43:52.000Z",
-			"name": "CustomComponentExample",
-			"parent": null,
-			"package": "8b18a518-832f-ee11-907e-000d3a661202"
-		}
-	],
 	"code_snippets": [],
 	"wf_determination": [],
 	"wf_taskaction": []
